@@ -18,6 +18,8 @@
 
 
     <dependencies>
+
+        <!--RxJava-->
         <!--<dependency>-->
             <!--<groupId>io.reactivex.rxjava2</groupId>-->
             <!--<artifactId>rxjava</artifactId>-->
@@ -29,6 +31,7 @@
             <version>1.2.4</version>
         </dependency>
 
+        <!--JMH BenchMarks-->
         <dependency>
             <groupId>org.openjdk.jmh</groupId>
             <artifactId>jmh-core</artifactId>
@@ -39,6 +42,18 @@
             <artifactId>jmh-generator-annprocess</artifactId>
             <version>1.4.1</version>
             <scope>provided</scope>
+        </dependency>
+
+        <!--Spark-->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>1.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-mllib_2.11</artifactId>
+            <version>1.2.0</version>
         </dependency>
 
     </dependencies>
@@ -55,6 +70,7 @@
                 </configuration>
             </plugin>
 
+            <!--JMH Benchmarks-->
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
