@@ -1,4 +1,9 @@
-package DesignPatterns.Behavioural.iterator.dinermergercafe;
+package DesignPatterns.Behavioural.iterator.test;
+
+import DesignPatterns.Behavioural.iterator.Menu.CafeMenu;
+import DesignPatterns.Behavioural.iterator.Menu.DinerMenu;
+import DesignPatterns.Behavioural.iterator.Menu.PancakeHouseMenu;
+import DesignPatterns.Behavioural.iterator.Waitress.Waitress;
 
 public class MenuTestDrive {
     public static void main(String args[]) {

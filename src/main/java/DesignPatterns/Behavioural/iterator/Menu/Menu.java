@@ -1,4 +1,4 @@
-package DesignPatterns.Behavioural.iterator.dinermergercafe;
+package DesignPatterns.Behavioural.iterator.Menu;
 
 import java.util.Iterator;
 

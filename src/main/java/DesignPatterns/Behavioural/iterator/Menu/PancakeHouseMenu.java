@@ -1,6 +1,9 @@
-package DesignPatterns.Behavioural.iterator.dinermerger;
+package DesignPatterns.Behavioural.iterator.Menu;
+
+import DesignPatterns.Behavioural.iterator.MenuItem.MenuItem;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class PancakeHouseMenu implements Menu {
     ArrayList menuItems;
@@ -19,7 +22,7 @@ public class PancakeHouseMenu implements Menu {
                 2.99);
 
         addItem("Blueberry Pancakes",
-                "Pancakes made with fresh blueberries",
+                "Pancakes made with fresh blueberries, and blueberry syrup",
                 true,
                 3.49);
 
@@ -35,16 +38,12 @@ public class PancakeHouseMenu implements Menu {
         menuItems.add(menuItem);
     }
 
-    public ArrayList getMenuItems() {
-        return menuItems;
-    }
+//    public ArrayList getMenuItems() {
+//        return menuItems;
+//    }
 
     public Iterator createIterator() {
-        return new PancakeHouseMenuIterator(menuItems);
-    }
-
-    public String toString() {
-        return "Objectville Pancake House Menu";
+        return menuItems.iterator();
     }
 
     // other menu methods here

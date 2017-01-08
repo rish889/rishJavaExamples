@@ -1,4 +1,6 @@
-package DesignPatterns.Behavioural.iterator.dinermergercafe;
+package DesignPatterns.Behavioural.iterator.Menu;
+
+import DesignPatterns.Behavioural.iterator.MenuItem.MenuItem;
 
 import java.util.Hashtable;
 import java.util.Iterator;
@@ -24,9 +26,9 @@ public class CafeMenu implements Menu {
         menuItems.put(menuItem.getName(), menuItem);
     }
 
-    public Hashtable getItems() {
-        return menuItems;
-    }
+//    public Hashtable getItems() {
+//        return menuItems;
+//    }
 
     public Iterator createIterator() {
         return menuItems.values().iterator();

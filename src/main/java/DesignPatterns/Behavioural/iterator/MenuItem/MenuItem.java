@@ -1,4 +1,4 @@
-package DesignPatterns.Behavioural.iterator.dinermerger;
+package DesignPatterns.Behavioural.iterator.MenuItem;
 
 public class MenuItem {
     String name;
@@ -30,9 +30,5 @@ public class MenuItem {
 
     public boolean isVegetarian() {
         return vegetarian;
-    }
-
-    public String toString() {
-        return (name + ", $" + price + "\n   " + description);
     }
 }
