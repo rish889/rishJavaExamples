@@ -1,6 +1,5 @@
 package DesignPatterns.Behavioural.observer.weather;
 
-import java.util.Observer;
 
 public class StatisticsDisplay implements Observer, DisplayElement {
     private float maxTemp = 0.0f;
