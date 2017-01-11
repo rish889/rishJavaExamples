@@ -1,4 +1,4 @@
-package JavaConcurrencyWithoutThePain;
+package CoreJava.JavaConcurrencyWithoutThePain;
 
 import java.io.IOException;
 import java.net.ServerSocket;

@@ -1,4 +1,4 @@
-package JavaConcurrencyWithoutThePain;
+package CoreJava.JavaConcurrencyWithoutThePain;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -10,7 +10,7 @@ import java.util.concurrent.*;
 
 
 //mvn clean package
-//java -cp target/rish-java-examples-1.0-SNAPSHOT.jar JavaConcurrencyWithoutThePain.ReadWebPage http://www.google.com
+//java -cp target/rish-java-examples-1.0-SNAPSHOT.jar CoreJava.JavaConcurrencyWithoutThePain.ReadWebPage http://www.google.com
 
 
 public class ReadWebPage {

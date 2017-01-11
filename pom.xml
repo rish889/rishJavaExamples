@@ -6,7 +6,7 @@
 
     <!--
     mvn clean package
-    java -cp target/rish-java-examples-1.0-SNAPSHOT.jar JavaConcurrencyWithoutThePain.Server
+    java -cp target/rish-java-examples-1.0-SNAPSHOT.jar CoreJava.JavaConcurrencyWithoutThePain.Server
     java -jar target/rish-java-examples-1.0-SNAPSHOT.jar
     -->
 
